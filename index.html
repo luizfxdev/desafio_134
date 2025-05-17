@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decifrador da Linguagem dos Dragões</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decifrador da Linguagem dos Dragões</h1>
+        <p class="subtitle">Traduza os segredos ancestrais dos dragões de Eluria</p>
+        
+        <div class="input-group">
+            <label for="inputText">Mensagem do Dragão:</label>
+            <textarea id="inputText" placeholder="Insira a mensagem cifrada aqui..."></textarea>
+        </div>
+        
+        <div class="button-group">
+            <button id="translateBtn" style="--clr:#ff0044">
+                <span>TRADUZIR</span>
+                <i></i>
+            </button>
+            <button id="returnBtn" style="--clr:#ff0044">
+                <span>RETORNAR</span>
+                <i></i>
+            </button>
+        </div>
+        
+        <div class="output-group">
+            <label for="outputText">Tradução:</label>
+            <textarea id="outputText" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
